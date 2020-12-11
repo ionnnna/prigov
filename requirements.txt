@@ -1,0 +1,14 @@
+certifi==2020.12.5
+chardet==3.0.4
+cybox==2.1.0.21
+idna==2.10
+lxml==4.6.2
+mixbox==1.0.5
+ordered-set==4.0.2
+pyTelegramBotAPI==3.7.4
+python-dateutil==2.8.1
+requests==2.25.0
+six==1.15.0
+stix==1.2.0.11
+urllib3==1.26.2
+weakrefmethod==1.0.3
