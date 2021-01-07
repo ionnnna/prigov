@@ -3,7 +3,7 @@ import telebot
 from telebot import types
 import random
 bot = telebot.TeleBot('1323327743:AAHlm0QsWNAyPkJcmNJmxXk9Tr4gGxctp7w')
-keyboard1 = telebot.types.ReplyKeyboardMarkup(True, True)
+keyboard1 = telebot.types.ReplyKeyboardMarkup(True)
 keyboard1.row('Дмитрий Алексаныч!')
 city_list = [
 	'Веник сломан, не фурычит \n Нечем пол мне подметать \n А уж как, едрена мать \n Как бывало подметал я \n Там, бывало, подмету - \n Все светло кругом, я ныне \n Сломано все, не фурычит \n Жить не хочется',
