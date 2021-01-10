@@ -118,7 +118,7 @@ city_list = [
 
 @bot.message_handler(commands=['start', 'stixi'])
 def send_welcome(message):
-	bot.reply_to(message, "Товарищи!", reply_markup=keyboard1)
+	bot.reply_to(message, "Товарищи! Позовите Дмитрия Александровича Пригова и прочитайте для счастья его стихотворение", reply_markup=keyboard1)
 @bot.message_handler(content_types=['text'])
 def send_text(message):
     if message.text == "Дмитрий Алексаныч!":
